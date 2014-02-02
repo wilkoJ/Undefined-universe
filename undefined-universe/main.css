@@ -1,0 +1,98 @@
+#mainCanvas{
+    border: white solid 1px;
+    margin-left:50%;
+    position : relative;
+    left:-429px;
+	
+}
+
+body{
+    background-color: black;
+	
+}
+
+#backgroundLeft{
+	position       : absolute;
+	width          : 220px;
+    height         : 660px;
+	left: -650px;
+	margin-left:50%;
+	margin-right:auto;
+	top:7px;
+    background-image: url('assets/UI/backgroundLeft.png');
+}
+#backgroundRight{
+	position       : absolute;
+    width          : 220px;
+    height         : 660px;
+	left           : 430px;
+	top: 7px;
+	margin-left:50%;
+	background-image: url('assets/UI/backgroundRight.png');
+}
+.leftHand{
+    margin-left:50%;
+	margin-top:auto;
+	position:absolute;
+	top: 70px;
+	left:-50px;
+	width:150px;
+	border: black solid 1px;
+	
+}
+#currentUniverse{
+	height:100px;
+}
+#joueur1{
+	height:50px;
+	top: 200px;
+}
+#timer{
+	height:50px;
+	top: 270px;
+	text-align: center;
+}
+#joueur2{
+	height:50px;
+	top: 340px;
+}
+#descriptionSelectedElement{
+	height:200px;
+	top: 410px;
+}
+.rightHand{
+ margin-left:50%;
+ margin-top:auto;
+ position:absolute;
+ top:70px;
+ height:65px;
+ width:160px;
+ left:-100px;
+ border: black solid 1px;
+ border-radius:5px;
+ background-image: url('assets/UI/CharacterTurnsUI.png');
+}
+#characterTurn1{
+	background-color: green;
+}
+#characterTurn2{
+	top:140px;
+}
+#characterTurn3{
+	top:210px;
+}
+#characterTurn4{
+	top:280px;
+}
+#characterTurn5{
+	top:350px;
+}
+#characterTurn6{
+	top:420px;
+}
+#characterTurn7{
+	top:490px;
+}
+#characterTurn8{
+	top:560px;
+}
